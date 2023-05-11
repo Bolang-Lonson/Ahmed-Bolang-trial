@@ -128,3 +128,29 @@ td.dwg{
 td.expl{
   width: 80%;
 }
+
+.catalogue{
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-img{
+  flex-basis: 50%;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+.product-img :nth-child(1){
+  background-image: url('images\bruno-justo-pego-HeWRZ5-5Kt0-unsplash.jpg');
+
+}
+.product-img :nth-child(2){
+  background-image: url('images\chris-bair-A10y2Eq7OHY-unsplash.jpg');
+  
+}
+.product-img :nth-child(3){
+  background-image: url('images\portuguese-gravity-JdrvbrZ11y0-unsplash.jpg');
+  
+}
+.product-img :nth-child(4){
+  background-image: url('images\sandip-roy-VPR_95iRNps-unsplash.jpg');
+  
+}
